@@ -39,7 +39,13 @@ def json_to_dataframe(input_filename):
                 # Regex to find alignment words
                 matches = re.findall(r'\b(dark|light|chaotic|lawful|balanced|chaos)\b', description, re.IGNORECASE)
                 if matches:
-                    alignment = ", ".join(matches)
+                    alignment = []
+                    for x in matches: 
+                        if x == "chaos":
+                            x = "chaotic"
+                        alignment.append(x.capitalize())
+                else:
+                    alignment = ["Any"]
 
             if trait["name"] == "Ability Score Increase":
                 # Specific boosts
@@ -64,6 +70,8 @@ def json_to_dataframe(input_filename):
                     secondary_boost = ["your_choice"]
                 else:
                     secondary_boost = [x[0] for x in secondary_boost]
+                    if secondary_boost == ["3"]:
+                        secondary_boost = ["Typo"]
 
         processed_data.append({
             'Name': name,
