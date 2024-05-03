@@ -1,0 +1,487 @@
+[
+    {
+        "name": "Absorbing",
+        "content": "While using this item as your focus, when you take damage from any source, you can reduce that damage by an amount up to the absorptive number, provided you have a number of force or tech points equal to half the damage absorbed. When you do so, you lose half the damage taken in force or tech points.",
+        "type": "Caster"
+    },
+    {
+        "name": "Accessing",
+        "content": "While using this item as your focus, you gain access to a number of new powers (chosen by the GM) of a combined total no greater than the access number. The powers count as known by you, and you can’t unlearn the powers.",
+        "type": "Caster"
+    },
+    {
+        "name": "Amplifying",
+        "content": "While using this item as your focus, your critical hit range with melee force or tech attacks increases by an amount equal to the amplifying number.",
+        "type": "Caster"
+    },
+    {
+        "name": "Bolstering",
+        "content": "Prerequisite: Focus generator property. While using this item as your focus, your maximum force points increase by the bolstering number.",
+        "type": "Caster"
+    },
+    {
+        "name": "Constitution",
+        "content": "While using an item with this property as your focus, you gain no benefit from any additional properties the item has unless your Constitution score meets or exceeds the constitution number.",
+        "type": "Caster"
+    },
+    {
+        "name": "Dispelling",
+        "content": "While using this item as your focus, your level of proficiency in force- or tech-casting ability checks increases by a number of steps equal to the dispelling number (to trained, from trained to proficient, from proficient to expertise, from expertise to mastery, from mastery to high mastery, or from high mastery to grand mastery).",
+        "type": "Caster"
+    },
+    {
+        "name": "Elongating",
+        "content": "While using this item as your focus, when you cast a power that affects a cylinder, the height of the cylinder increases by an amount equal to the elongating number, and the radius of the cylinder increases by an amount equal to half the elongating number.",
+        "type": "Caster"
+    },
+    {
+        "name": "Enlarging",
+        "content": "While using this item as your focus, when you cast a power that affects a cube, the length of each side of the cube increases by an amount equal to the enlarging number.",
+        "type": "Caster"
+    },
+    {
+        "name": "Expanding",
+        "content": "While using this item as your focus, when you cast a power that affects a cone, the length of that cone increases by an amount equal to the expanding number.",
+        "type": "Caster"
+    },
+    {
+        "name": "Extending",
+        "content": "While using this item as your focus, when you cast a power that affects a line, the length of the line increases by an amount equal to the extending number, and the width of the line increases by an amount equal to half the extending number.",
+        "type": "Caster"
+    },
+    {
+        "name": "Fading",
+        "content": "While using this item as your focus, the critical fail range of force or tech powers that require a Strength or Constitution saving throw increases by an amount equal to the fading number.",
+        "type": "Caster"
+    },
+    {
+        "name": "Focused",
+        "content": "While using this item as your focus, you can’t have disadvantage on Constitution saving throws to maintain concentration.",
+        "type": "Caster"
+    },
+    {
+        "name": "Increasing",
+        "content": "While using this item as your focus, when you cast a power that has a range of 5 feet or greater, the range of that power increases by an amount equal to the increasing number.",
+        "type": "Caster"
+    },
+    {
+        "name": "Inflating",
+        "content": "While using this item as your focus, when you cast a power that affects a sphere, the radius of the sphere increases by an amount equal to the inflating number.",
+        "type": "Caster"
+    },
+    {
+        "name": "Mitigating",
+        "content": "While using this item as your focus, using the Ready action to cast a force or tech power no longer requires concentration. You can only have one instance of this feature active at a time. Additionally, if the power would not be released, and the power was 1st level or higher, the cost of the power is reduced by a number of points equal to the mitigating number, to a minimum of 1.",
+        "type": "Caster"
+    },
+    {
+        "name": "Ranging",
+        "content": "While using this item as your focus, your critical hit range with ranged force or tech attacks increases by an amount equal to the ranging number.",
+        "type": "Caster"
+    },
+    {
+        "name": "Rending",
+        "content": "While using this item as your focus, the critical fail range of force or tech powers that require a Dexterity or Intelligence saving throw increases by an amount equal to the rending number.",
+        "type": "Caster"
+    },
+    {
+        "name": "Repelling",
+        "content": "While using this item as your focus, your powers are no longer automatically dispelled or interrupted. Instead, the DC to interrupt or dispel your powers is equal to 10 + the power’s level, or 8 + half your proficiency bonus + your casting modifier for that power, whichever is greater.",
+        "type": "Caster"
+    },
+    {
+        "name": "Storing",
+        "content": "While using this item as your focus, you can store 1st-level or higher powers of a combined total no greater than the storing number within the focus for later use. You can cast a power into this item while touching it. The power has no effect other than to be stored in the item. If the item can’t hold the power, the power is expended without effect. You can cast any power stored in it at its base level, causing the power to no longer be stored, freeing up the space.",
+        "type": "Caster"
+    },
+    {
+        "name": "Surging",
+        "content": "Prerequisite: Wristpad property. While using this item as your focus, your maximum tech points increase by the surging number.",
+        "type": "Caster"
+    },
+    {
+        "name": "Withering",
+        "content": "While using this item as your focus, the critical fail range of force or tech powers that require a Wisdom or Charisma saving throw increases by an amount equal to the withering number.",
+        "type": "Caster"
+    },
+    {
+        "name": "Auto",
+        "content": "Weapons with this property can only fire in burst, penetrating, or rapid modes. If the weapon has any combination of burst, penetrating, and rapid modes, you choose which mode to use. You can only use one mode at a time.",
+        "type": "Weapon"
+    },
+    {
+        "name": "Biting",
+        "content": "This weapon's damage becomes acid. Additionally, when you would make a melee weapon attack with a weapon with the biting property, you can instead force the target to make a Constitution saving throw (DC = 8 + your bonus to attacks with the weapon, or the biting number, whichever is lower). If you would have advantage on your attack roll, the creature instead has disadvantage on their saving throw, and if you would have disadvantage on your attack roll, the creature instead has advantage on their saving throw. On a failed save, the target takes normal weapon damage and is subjected to any additional effects that would occur on a hit, and the first attack it makes before the end of its next turn has disadvantage. If damage dealt by this weapon reduces a creature to 0 hit points, it must make a DC 13 Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything unenhanced it is wearing and carrying are reduced to a pile of fine gray dust. A creature destroyed in this way can not be revitalized.",
+        "type": "Weapon"
+    },
+    {
+        "name": "Bright",
+        "content": "This weapon's damage becomes fire, and its luminous property sheds bright light in a 5-foot radius and dim light for an additional 5 feet while activated, instead of only dim light in a 5-foot radius. Additionally, when you would make a melee weapon attack with a weapon with the bright property, you can instead force the target to make a Dexterity saving throw (DC = 8 + your bonus to attacks with the weapon, or the bright number, whichever is lower). If you would have advantage on your attack roll, the creature instead has disadvantage on their saving throw, and if you would have disadvantage on your attack roll, the creature instead has advantage on their saving throw. On a failed save, the target takes normal weapon damage and is subjected to any additional effects that would occur on a hit, and the creature takes additional damage of the same type at the start of its next turn equal to your governing ability modifier.",
+        "type": "Weapon"
+    },
+    {
+        "name": "Brutal",
+        "content": "When you score a critical hit with a weapon with the brutal property, you roll a number of additional weapon damage dice equal to the brutal number.",
+        "type": "Weapon"
+    },
+    {
+        "name": "Burst",
+        "content": "When you would make a ranged weapon attack with a weapon with this property, you can instead spray a 10-foot-cube area within range with shots, consuming ammunition equal to the burst number. Each creature in the area must make a Dexterity saving throw (DC = 8 + your bonus to attacks with the weapon) or take the weapon's normal damage. Before you use this property, you can declare one creature that would be affected by it. If the creature fails its save, in addition to the weapon's normal damage, it is subjected to any additional effects that would occur on a hit. If you would have advantage on your attack roll, the creature instead has disadvantage on their saving throw, and if you would have disadvantage on your attack roll, the creature instead has advantage on their saving throw.",
+        "type": "Weapon"
+    },
+    {
+        "name": "Corruption",
+        "content": "This weapon's damage becomes necrotic, and it loses the luminous property if it has it. Additionally, when you would make a melee weapon attack with a weapon with the corruption property, you can instead force the target to make a Wisdom saving throw (DC = 8 + your bonus to attacks with the weapon, or the corruption number, whichever is lower). If you would have advantage on your attack roll, the creature instead has disadvantage on their saving throw, and if you would have disadvantage on your attack roll, the creature instead has advantage on their saving throw. On a failed save, the target takes normal weapon damage and is subjected to any additional effects that would occur on a hit, and the creature cannot regain hit points until the start of your next turn.",
+        "type": "Weapon"
+    },
+    {
+        "name": "Defensive",
+        "content": "When you make your first attack on your turn with a weapon with the defensive property, you can choose to suffer a penalty to attack and damage rolls with that weapon up to the defensive number. If you do so, you gain the same bonus to AC. These effects last until the start of your next turn, as long as you're holding the weapon.",
+        "type": "Weapon"
+    },
+    {
+        "name": "Dexterity",
+        "content": "A weapon with this property requires more skill to control. While wielding it, you have disadvantage on attack rolls unless you meet the Dexterity requirement. ",
+        "type": "Weapon"
+    },
+    {
+        "name": "Dire",
+        "content": "Before you make a weapon attack with a weapon with the dire property, you can choose to suffer a penalty to the attack roll up to the dire number. If you do so and you hit with it, you gain an equivalent bonus to the damage roll.",
+        "type": "Weapon"
+    },
+    {
+        "name": "Disarming",
+        "content": "When you score a critical hit with a weapon with the disarming property against a creature that is holding an object, you can attempt to disarm the target (no action required). If the target is no more than one size larger than you (your size or smaller if your weapon has the light property), it must succeed on a Strength saving throw (DC = 8 + your bonus to attacks with the weapon) or it drops an object of your choice at its feet.",
+        "type": "Weapon"
+    },
+    {
+        "name": "Disguised",
+        "content": "You have advantage on Charisma (Deception) checks made to hide the nature of a weapon with this property.",
+        "type": "Weapon"
+    },
+    {
+        "name": "Disintegrate",
+        "content": "When a creature is reduced to 0 hit points by a weapon with the disintegrate property, it must make a Constitution saving throw, DC equal to the disintegrate number. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything unenhanced it is wearing or carrying are reduced to a pile of fine gray dust. A creature destroyed in this way can not be revitalized.",
+        "type": "Weapon"
+    },
+    {
+        "name": "Disruptive",
+        "content": "When a creature is forced to make a Constitution saving throw to maintain concentration due to taking damage from a weapon with the disruptive property, the DC for the check equals 10 or the full damage taken, whichever number is higher, instead of only half.",
+        "type": "Weapon"
+    },
+    {
+        "name": "Double",
+        "content": "A weapon with this property can be used with one or two hands. A damage value in parentheses appears with the property\u00ef\u00bf\u00bdthe damage when the weapon is used with Double-Weapon Fighting. See the rules for Double-Weapon Fighting in chapter 9.",
+        "type": "Weapon"
+    },
+    {
+        "name": "Finesse",
+        "content": "When making an attack with a weapon with this property, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.",
+        "type": "Weapon"
+    },
+    {
+        "name": "Fixed",
+        "content": "A weapon with this property does not fill the hand, but you can't use the weapon while the hand is full. Additionally, you have a +10 bonus to ability checks and saving throws to avoid being disarmed of this weapon.",
+        "type": "Weapon"
+    },
+    {
+        "name": "Heavy",
+        "content": "When you hit with an attack roll using Strength with a weapon with this property, you deal additional damage equal to half your Strength modifier (minimum of +1).",
+        "type": "Weapon"
+    },
+    {
+        "name": "Hidden",
+        "content": "You have advantage on Dexterity (Sleight of Hand) checks made to conceal a weapon with this property.",
+        "type": "Weapon"
+    },
+    {
+        "name": "Interlocking",
+        "content": "While wielding a weapon with the interlocking property, you can use your object interaction to detach the weapon into two separate weapons or reattach into a single weapon. While separated, each weapon has the same damage, damage type, combined value and weight, and properties (except for the double property) as the single weapon.",
+        "type": "Weapon"
+    },
+    {
+        "name": "Keen",
+        "content": "When you make a weapon attack with a weapon with the keen property, the critical hit range increases by an amount equal to the keen number.",
+        "type": "Weapon"
+    },
+    {
+        "name": "Light",
+        "content": "A weapon with this property is small and easy to handle, making it ideal for use when engaging in Double- or Two-Weapon Fighting. See the rules for Double- and Two-Weapon Fighting in chapter 9.",
+        "type": "Weapon"
+    },
+    {
+        "name": "Luminous",
+        "content": "A weapon with this property sheds dim light in a 5-foot radius while activated. Additionally, Dexterity (Stealth) checks made while the weapon is activated have disadvantage.",
+        "type": "Weapon"
+    },
+    {
+        "name": "Mighty",
+        "content": "When making an attack with a mighty weapon, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.",
+        "type": "Weapon"
+    },
+    {
+        "name": "Modal",
+        "content": "A weapon with this property can switch between modes. A list of weapons in parentheses appears with the property-the weapons between which an exotic weapon can be switched by using an object interaction.",
+        "type": "Weapon"
+    },
+    {
+        "name": "Neuralizing",
+        "content": "When you hit a creature with a weapon with the neuralizing property, you can force it to make a Wisdom saving throw, DC equal to the neuralizing number. On a failed save, the creature takes an additional 1d4 psychic damage and becomes frightened of you until the start of its next turn.",
+        "type": "Weapon"
+    },
+    {
+        "name": "Penetrating",
+        "content": "When you would make a ranged weapon attack with a weapon with this property, you can instead attempt to penetrate and hit a creature behind the target, consuming ammunition equal to the penetrating number. Make an attack roll against the initial target. If the attack hits, there is a creature within 15 feet of that creature and directly behind it, and the original attack roll would hit the second creature, it also takes normal weapon damage. Alternatively, you can use this property to fire at a creature through partial cover. When you do so, you reduce the target's cover by one step (from three-quarters to half or half to one-quarter), rather than targeting a second creature.",
+        "type": "Weapon"
+    },
+    {
+        "name": "Piercing",
+        "content": "Before you make a weapon attack with a weapon with the piercing property, you can choose to gain a bonus to the attack roll up to the piercing number. If you do so and you hit with it, you suffer an equivalent penalty to the damage roll.",
+        "type": "Weapon"
+    },
+    {
+        "name": "Power Cell",
+        "content": "Weapons with this property are fueled by power cells, which must be loaded in order to fire the weapon. A power cell fuels a number of attacks equal to the weapon's reload number.",
+        "type": "Weapon"
+    },
+    {
+        "name": "Range",
+        "content": "A weapon that can be used to make a ranged attack has this property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's long range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range.",
+        "type": "Weapon"
+    },
+    {
+        "name": "Rapid",
+        "content": "When you would make a ranged weapon attack with a weapon with this property, you can instead unload on a single target, consuming ammunition equal to the rapid number. The target must make a Dexterity saving throw (DC = 8 + your bonus to attacks with the weapon). On a failed save, roll the weapon's damage dice twice and add them together, adding relevant modifiers as normal and subjecting the target to any additional effects that would occur on a hit. If you would have advantage on your attack roll, the creature instead has disadvantage on their saving throw, and if you would have disadvantage on your attack roll, the creature instead has advantage on their saving throw.",
+        "type": "Weapon"
+    },
+    {
+        "name": "Reach",
+        "content": "A weapon with this property adds 5 feet to your reach with it.",
+        "type": "Weapon"
+    },
+    {
+        "name": "Reload",
+        "content": "A number of shots equal to the reload number can be made with a weapon with this property. A character must then reload it using an action or a bonus action (their choice). You must have one free hand to reload.",
+        "type": "Weapon"
+    },
+    {
+        "name": "Returning",
+        "content": "When you throw a weapon with this property, it automatically returns to your hand after the attack is complete, whether you hit or miss.",
+        "type": "Weapon"
+    },
+    {
+        "name": "Shocking",
+        "content": "When you hit a creature with a weapon with the shocking property, you can force it to make a Dexterity saving throw, DC equal to the shocking number. On a failed save, the creature takes an additional 1d4 lightning damage and becomes shocked until the end of its next turn.",
+        "type": "Weapon"
+    },
+    {
+        "name": "Silent",
+        "content": "When you make a ranged weapon attack with a weapon with the silent property while hidden, it does not automatically reveal your presence. Make a Dexterity (Stealth) check contested by your targets' Wisdom (Perception) check. On a success, you remain hidden.",
+        "type": "Weapon"
+    },
+    {
+        "name": "Slug Cartridge",
+        "content": "Weapons with this property fire slug cartridges, which must be loaded in order to fire the weapon.",
+        "type": "Weapon"
+    },
+    {
+        "name": "Smart",
+        "content": "This weapon ignores your Dexterity score and proficiency bonus. Two numbers appear in parentheses with the property\u00ef\u00bf\u00bdthe first is the weapon's Dexterity score, and the second is the weapon's proficiency bonus. The weapon uses these values instead of yours when you make attack and damage rolls with it. If you lack proficiency with the weapon, the weapon does not benefit from its proficiency bonus.",
+        "type": "Weapon"
+    },
+    {
+        "name": "Sonorous",
+        "content": "When you hit a creature with a weapon with the sonorous property, you can force it to make a Constitution saving throw, DC equal to the sonorous number. On a failed save, the creature takes an additional 1d4 sonic damage and becomes deafened until the end of its next turn.",
+        "type": "Weapon"
+    },
+    {
+        "name": "Special",
+        "content": "A weapon with this property has unusual rules governing its use, explained in the weapon's description (see \"Special Weapons\" later in this section).",
+        "type": "Weapon"
+    },
+    {
+        "name": "Specialized",
+        "content": "A weapon with this property bypasses the base and cap of certain properties. Another weapon property in parentheses with the property-the weapon property that the exotic bypasses the base and cap for.",
+        "type": "Weapon"
+    },
+    {
+        "name": "Strength",
+        "content": "A weapon with this property has a heavy kickback. While wielding it, you have disadvantage on attack rolls unless you meet the Strength requirement. If the weapon has the burst, penetrating, or rapid property, you must meet the Strength requirement to use this feature. If the weapon lacks the two-handed property, you can wield the weapon in two hands to temporarily reduce the strength number by one step (from 19 to 17, 17 to 15, 15 to 13, or 13 to 11). If this would reduce the strength number below 11, you ignore it entirely.",
+        "type": "Weapon"
+    },
+    {
+        "name": "Switch",
+        "content": "A weapon with the switch property can deal an alternate type of damage. A damage value appears in parentheses appears with the property-the damage when the weapon uses its alternate damage type. On your turn, you can use your object interaction to change the weapon's damage type.",
+        "type": "Weapon"
+    },
+    {
+        "name": "Thrown",
+        "content": "Weapons with this property can be thrown to make a ranged attack. If the weapon would normally be used to make melee weapon attacks, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. ",
+        "type": "Weapon"
+    },
+    {
+        "name": "Two-Handed",
+        "content": "A weapon with this property requires two hands to use.",
+        "type": "Weapon"
+    },
+    {
+        "name": "Versatile",
+        "content": "A weapon with this property can be used with one or two hands. A damage value in parentheses appears with the property\u00ef\u00bf\u00bdthe damage when the weapon is used with two hands to make a melee attack.\t",
+        "type": "Weapon"
+    },
+    {
+        "name": "Vicious",
+        "content": "Whenever you deal damage with a weapon with the vicious property and roll the maximum on a weapon damage die, you gain a bonus to damage equal to the vicious number.",
+        "type": "Weapon"
+    },
+    {
+        "name": "Absorptive",
+        "content": "When you are wearing armor or wielding a shield with this property, damage that you take from weapons is reduced by an amount equal to the absorptive number. If this would reduce the damage to 0, the damage is instead reduced to 1.",
+        "type": "Armor"
+    },
+    {
+        "name": "Agile",
+        "content": "While wearing armor or wielding a shield with this property, your Dexterity score becomes equal to the agile number. If your Dexterity is already equal to or greater than the agile number, it has no effect on you.",
+        "type": "Armor"
+    },
+    {
+        "name": "Anchor",
+        "content": "A shield with this property can be used to provide cover. As an action, you can anchor or recover the shield. While anchored, you gain no benefit from a shield, and it does not require the use of a hand. Instead, while anchored, a light shield provides one-quarter cover, a medium shield provides half cover, and a heavy shield provides three-quarters cover.",
+        "type": "Armor"
+    },
+    {
+        "name": "Avoidant",
+        "content": "When wearing armor or wielding a shield with this property and a creature makes an attack against you, the critical hit range decreases by an amount equal to the avoidant number, to a minimum of 1.",
+        "type": "Armor"
+    },
+    {
+        "name": "Barbed",
+        "content": "When you succeed on a Strength (Athletics) check to initiate or maintain a grapple while wearing armor with this property, the creature takes kinetic damage using the barbed damage (which appears in parentheses with the property) + your Strength modifier.",
+        "type": "Armor"
+    },
+    {
+        "name": "Bulky",
+        "content": "While wearing armor with this property, you have disadvantage on Dexterity (Stealth) checks that rely on sound.",
+        "type": "Armor"
+    },
+    {
+        "name": "Charging",
+        "content": "When you take damage while wearing armor or wielding a shield with this property, you gain a charge. You can store a maximum number of charges equal to the charging number, and the charges last for 1 minute. The next time you hit with a melee weapon attack while you have charges, you deal additional damage of the same type as the weapon's damage equal to the number of charges stored, and the charges are expended.",
+        "type": "Armor"
+    },
+    {
+        "name": "Concealing",
+        "content": "While wielding a shield with this property, you have advantage on Dexterity (Stealth) checks that rely on sight.",
+        "type": "Armor"
+    },
+    {
+        "name": "Cumbersome",
+        "content": "While wearing armor or wielding a shield with this property, your speed is reduced by 5.",
+        "type": "Armor"
+    },
+    {
+        "name": "Gauntleted",
+        "content": "While wearing armor with this property, your unarmed strikes deal kinetic damage using the gauntleted damage (which appears in parentheses with the property) + your Strength modifier.",
+        "type": "Armor"
+    },
+    {
+        "name": "Imbalanced",
+        "content": "When you are critically hit while wielding a shield with this property, you can't take reactions until the start of your next turn, and you gain no AC benefit from your shield against the next attack against you before the start of your next turn.",
+        "type": "Armor"
+    },
+    {
+        "name": "Impermeable",
+        "content": "Armor with this property includes the limited functions of a number of enviromental suits equal the impermeable number from the list below, which are either included in parentheses with the property or determined by the GM. Additionally, it includes 4 hours' capacity of oxygen, which can be replenished by oxygen tanks.\r\n- **Chemical Suit:** You are immune to the corroded condition.\r\n- **Conductive Suit:** You are immune to the shocked condition.\r\n- **Dampening Suit:** You are immune to the deafened condition, and you can't have disadvantage on Wisdom (Perception) and Intelligence (Investigation) checks that rely on sound.\r\n- **Diving Suit:** You are protected from the hazards associated with high pressure environments.\r\n- **Flame-Proof Suit:** You are immune to the ignited condition.\r\n- **Hazard Suit:** You are immune to the poisoned condition.\r\n- **Mind-Shielding Suit:** You have advantage on saving throws to avoid being frightened, and you have advantage on saving throws to avoid having your mind read or affected.\r\n- **Space Suit:** You are protected from the hazards associated with low pressure environments.\r\n- **Stabilizer Suit:** You have advantage on ability checks and saving throws to avoid being moved.",
+        "type": "Armor"
+    },
+    {
+        "name": "Insulated",
+        "content": "When you make a saving throw against an effect that would deal ion or lightning damage while wearing armor or wielding a shield with this property, you can treat a d20 roll of below the insulated number as the insulated number.",
+        "type": "Armor"
+    },
+    {
+        "name": "Interlocking",
+        "content": "While wielding a shield with this property within 5 feet of a friendly creature who is also wielding a shield with this property, you can both use your reactions on either of your turns to interlock the shields. While interlocked, both creatures gain a bonus to AC equal to the interlocking number. If at any point the creatures are more than 5 feet from each other, the shields immediately de-interlock, and this effect ends.",
+        "type": "Armor"
+    },
+    {
+        "name": "Lambent",
+        "content": "While wielding a shield with this property, you can use a bonus action to activate or deactivate the shield's light. While active, the shield sheds bright light in a 5-foot radius and dim light for an additional 5 feet. Additionally, Dexterity (Stealth) checks made while the shield's light is active that rely on sight have disadvantage.",
+        "type": "Armor"
+    },
+    {
+        "name": "Lightweight",
+        "content": "Armor and shields with this property have their weight reduced by half.",
+        "type": "Armor"
+    },
+    {
+        "name": "Magnetic",
+        "content": "While you are wielding a shield with this property and a melee weapon attack misses you by an amount less than or equal to your bonus to AC from your shield, the attacking creature must make a Strength check, DC equal to the magnetic number. On a failed save, the creature's weapon adheres to the shield. As an action, a creature can repeat this check. On a success, the weapon is freed.",
+        "type": "Armor"
+    },
+    {
+        "name": "Obscured",
+        "content": "While wearing armor or wielding a shield with this property, electronic sensors and cameras have disadvantage on Wisdom (Perception) and Intelligence (Investigation) checks against you that rely on sight.",
+        "type": "Armor"
+    },
+    {
+        "name": "Obtrusive",
+        "content": "While wielding a shield with this property, you have disadvantage on Dexterity (Stealth) checks that rely on sight.",
+        "type": "Armor"
+    },
+    {
+        "name": "Powered",
+        "content": "While wearing armor with this property, your Strength score becomes equal to the powered number. If your Strength is already equal to or greater than the powered number, it has no effect on you.",
+        "type": "Armor"
+    },
+    {
+        "name": "Reactive",
+        "content": "When you are wearing armor with this property and a creature hits you with an attack roll, you gain a bonus to AC against the next attack from that creature before the start of your next turn equal to the reactive number.",
+        "type": "Armor"
+    },
+    {
+        "name": "Regulated",
+        "content": "When you are wearing armor or wielding a shield with this property and a creature rolls the maximum on a weapon damage die against you, they must reroll and use the new roll, even if the new roll is the maximum on the weapon damage die.",
+        "type": "Armor"
+    },
+    {
+        "name": "Reinforced",
+        "content": "When you make a long jump while wearing armor with this property, you can cover a number of feet up to twice your Strength score. When you make a high jump, you can leap a number of feet up into the air equal to 3 + twice your Strength modifier.",
+        "type": "Armor"
+    },
+    {
+        "name": "Responsive",
+        "content": "While you are wielding a shield with this property and an attack misses you by an amount less than or equal to your bonus to AC from your shield, you gain a bonus to AC against the next attack from that creature before the start of your next turn equal to the responsive number.",
+        "type": "Armor"
+    },
+    {
+        "name": "Rigid",
+        "content": "While wearing armor with this property, you add half your Dexterity modifier (rounded down), instead of your full Dexterity modifier, to Dexterity saving throws you make. If your Dexterity modifier is negative, you instead subtract the full modifier.",
+        "type": "Armor"
+    },
+    {
+        "name": "Silent",
+        "content": "While wearing armor with this property, you have advantage on Dexterity (Stealth) checks that rely on sound.",
+        "type": "Armor"
+    },
+    {
+        "name": "Spiked",
+        "content": "When you succeed on a Strength (Athletics) check to shove or trip a creature while wielding a shield with this property, the creature takes kinetic damage using the spiked damage (which appears in parentheses with the property) + your Strength modifier. If you use a shield with this property as an improvised weapon, the damage increases by one step (from d4 to d6, d6 to d8, or d8 to 2d4).",
+        "type": "Armor"
+    },
+    {
+        "name": "Steadfast",
+        "content": "While wearing armor or wielding a shield with this property, you have advantage on Strength checks and Strength saving throws to avoid being moved.",
+        "type": "Armor"
+    },
+    {
+        "name": "Strength",
+        "content": "While wearing armor or wielding a shield with this property, your speed is reduced by 10 unless your Strength score meets or exceeds the strength number. ",
+        "type": "Armor"
+    },
+    {
+        "name": "Versatile",
+        "content": "A shield with this property can be used with one or two hands. While wielded in two hands, you gain an additional bonus to AC equal to the versatile number.",
+        "type": "Armor"
+    }
+]

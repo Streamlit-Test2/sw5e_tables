@@ -1,0 +1,107 @@
+[
+    {
+        "name": "Absorbing",
+        "content": "While using this item as your focus, when you take damage from any source, you can reduce that damage by an amount up to the absorptive number, provided you have a number of force or tech points equal to half the damage absorbed. When you do so, you lose half the damage taken in force or tech points.",
+        "type": "Caster"
+    },
+    {
+        "name": "Accessing",
+        "content": "While using this item as your focus, you gain access to a number of new powers (chosen by the GM) of a combined total no greater than the access number. The powers count as known by you, and you can’t unlearn the powers.",
+        "type": "Caster"
+    },
+    {
+        "name": "Amplifying",
+        "content": "While using this item as your focus, your critical hit range with melee force or tech attacks increases by an amount equal to the amplifying number.",
+        "type": "Caster"
+    },
+    {
+        "name": "Bolstering",
+        "content": "Prerequisite: Focus generator property. While using this item as your focus, your maximum force points increase by the bolstering number.",
+        "type": "Caster"
+    },
+    {
+        "name": "Constitution",
+        "content": "While using an item with this property as your focus, you gain no benefit from any additional properties the item has unless your Constitution score meets or exceeds the constitution number.",
+        "type": "Caster"
+    },
+    {
+        "name": "Dispelling",
+        "content": "While using this item as your focus, your level of proficiency in force- or tech-casting ability checks increases by a number of steps equal to the dispelling number (to trained, from trained to proficient, from proficient to expertise, from expertise to mastery, from mastery to high mastery, or from high mastery to grand mastery).",
+        "type": "Caster"
+    },
+    {
+        "name": "Elongating",
+        "content": "While using this item as your focus, when you cast a power that affects a cylinder, the height of the cylinder increases by an amount equal to the elongating number, and the radius of the cylinder increases by an amount equal to half the elongating number.",
+        "type": "Caster"
+    },
+    {
+        "name": "Enlarging",
+        "content": "While using this item as your focus, when you cast a power that affects a cube, the length of each side of the cube increases by an amount equal to the enlarging number.",
+        "type": "Caster"
+    },
+    {
+        "name": "Expanding",
+        "content": "While using this item as your focus, when you cast a power that affects a cone, the length of that cone increases by an amount equal to the expanding number.",
+        "type": "Caster"
+    },
+    {
+        "name": "Extending",
+        "content": "While using this item as your focus, when you cast a power that affects a line, the length of the line increases by an amount equal to the extending number, and the width of the line increases by an amount equal to half the extending number.",
+        "type": "Caster"
+    },
+    {
+        "name": "Fading",
+        "content": "While using this item as your focus, the critical fail range of force or tech powers that require a Strength or Constitution saving throw increases by an amount equal to the fading number.",
+        "type": "Caster"
+    },
+    {
+        "name": "Focused",
+        "content": "While using this item as your focus, you can’t have disadvantage on Constitution saving throws to maintain concentration.",
+        "type": "Caster"
+    },
+    {
+        "name": "Increasing",
+        "content": "While using this item as your focus, when you cast a power that has a range of 5 feet or greater, the range of that power increases by an amount equal to the increasing number.",
+        "type": "Caster"
+    },
+    {
+        "name": "Inflating",
+        "content": "While using this item as your focus, when you cast a power that affects a sphere, the radius of the sphere increases by an amount equal to the inflating number.",
+        "type": "Caster"
+    },
+    {
+        "name": "Mitigating",
+        "content": "While using this item as your focus, using the Ready action to cast a force or tech power no longer requires concentration. You can only have one instance of this feature active at a time. Additionally, if the power would not be released, and the power was 1st level or higher, the cost of the power is reduced by a number of points equal to the mitigating number, to a minimum of 1.",
+        "type": "Caster"
+    },
+    {
+        "name": "Ranging",
+        "content": "While using this item as your focus, your critical hit range with ranged force or tech attacks increases by an amount equal to the ranging number.",
+        "type": "Caster"
+    },
+    {
+        "name": "Rending",
+        "content": "While using this item as your focus, the critical fail range of force or tech powers that require a Dexterity or Intelligence saving throw increases by an amount equal to the rending number.",
+        "type": "Caster"
+    },
+    {
+        "name": "Repelling",
+        "content": "While using this item as your focus, your powers are no longer automatically dispelled or interrupted. Instead, the DC to interrupt or dispel your powers is equal to 10 + the power’s level, or 8 + half your proficiency bonus + your casting modifier for that power, whichever is greater.",
+        "type": "Caster"
+    },
+    {
+        "name": "Storing",
+        "content": "While using this item as your focus, you can store 1st-level or higher powers of a combined total no greater than the storing number within the focus for later use. You can cast a power into this item while touching it. The power has no effect other than to be stored in the item. If the item can’t hold the power, the power is expended without effect. You can cast any power stored in it at its base level, causing the power to no longer be stored, freeing up the space.",
+        "type": "Caster"
+    },
+    {
+        "name": "Surging",
+        "content": "Prerequisite: Wristpad property. While using this item as your focus, your maximum tech points increase by the surging number.",
+        "type": "Caster"
+    },
+    {
+        "name": "Withering",
+        "content": "While using this item as your focus, the critical fail range of force or tech powers that require a Wisdom or Charisma saving throw increases by an amount equal to the withering number.",
+        "type": "Caster"
+    }
+]

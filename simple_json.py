@@ -1,6 +1,6 @@
 import json
 
-def simplify_json(input_filename, output_filename):
+def simplify_json(input_filename, output_filename, category="traits"):
     # Open and read the input JSON file
     with open(input_filename, 'r') as file:
         data = json.load(file)
@@ -9,10 +9,11 @@ def simplify_json(input_filename, output_filename):
     simplified_data = []
     for item in data:
         # Check if both 'name' and 'trait' keys exist in the item
-        if 'name' in item and 'traits' in item:
+        if 'name' in item and category in item:
             simplified_data.append({
                 'name': item['name'],
-                'traits': item['traits']
+                category: item[category],
+                'type' : "Weapon"
             })
     
     # Write the simplified data to a new JSON file
@@ -20,4 +21,4 @@ def simplify_json(input_filename, output_filename):
         json.dump(simplified_data, file, indent=4)
 
 # Example usage
-simplify_json('species_data_raw.json', 'species_data.json')
+simplify_json('weaponProperty.json', 'weaponProperty.json', 'content')
